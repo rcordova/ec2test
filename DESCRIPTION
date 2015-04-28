@@ -1,9 +1,17 @@
 Package: ec2test
 Type: Package
-Title: What the package does (short line)
-Version: 1.0
-Date: 2015-04-27
-Author: Who wrote it
+Title: A Good Title
+Version: 0.0.1.9000
+Date: 2015-04-28
+Authors@R: as.person(c(
+   "Reinard Simon <r.simon@cgiar.org> [aut, cre]",
+   "International Potato Center (CIP) [cph]"
+  ))
 Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Description: A thorough description.
+License: MIT + file LICENSE
+URL: http://github.com/rcordova/ec2test
+BugReports: http://github.com/rcordova/ec2test/issues
+Suggests: knitr,
+    testthat
+VignetteBuilder: knitr
