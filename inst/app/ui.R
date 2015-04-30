@@ -6,7 +6,8 @@ fieldbooks <- ec2test::list.dirs("./data/potato")
 data <- c()
 for(i in 1:length(fieldbooks)) {
   if (fieldbooks[i] != "backups"){
-    data <- c(data, "Potato", fieldbooks[i], "<img src = '/check.png'/>", "<img src = '/check.png'/>")
+    data <- c(data, "Potato", fieldbooks[i], "<img src = '/check.png'/>", "<img src = '/error.png'/>")
+    ec2test::compress.dirs(paste("./data/potato/",fieldbooks[i],sep=""), fieldbooks[i], "./data/potato")
   }
 }
   

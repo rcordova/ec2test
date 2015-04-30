@@ -1,8 +1,8 @@
 compress.dirs <- function(input=".", outname="compress", outfolder=".", integrity=TRUE) {
   # compress using 7za
   input <- gsub("/", "\\\\", input)
-  outpath <- paste(outfolder, "backups", paste(outname,"7z", sep="."), sep="/")
-  lib <- paste(".", "inst", "library", "7Zip", "7za.exe", sep="\\")
+  outpath <- paste("..","..",outfolder, "backups", paste(outname,"7z", sep="."), sep="/")
+  lib <- paste("..","..", "inst", "library", "7Zip", "7za.exe", sep="\\")
   file.create("tmp.log")
   code <- paste(lib, "a", outpath, input, ">> tmp.log", sep=" ")
   shell(code)
