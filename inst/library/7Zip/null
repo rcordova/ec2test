@@ -1,0 +1,31 @@
+
+7-Zip (a) 9.38 beta  Copyright (c) 1999-2014 Igor Pavlov  2015-01-03
+Scanning
+
+Creating archive data.7z
+
+Compressing  Far\far7z.txt
+Compressing  history.txt
+Compressing  License.txt
+Compressing  readme.txt
+Compressing  Far\far7z.reg
+Compressing  Far\7zToFar.ini
+Compressing  Far\7-ZipEng.hlf
+Compressing  Far\7-ZipRus.hlf
+Compressing  Far\7-ZipEng.lng
+Compressing  Far\7-ZipRus.lng
+Compressing  x64\7za.exe
+Compressing  7za.exe
+Compressing  Far\7-ZipFar.dll
+Compressing  Far\7-ZipFar64.dll
+Compressing  x64\7za.dll
+Compressing  7za.dll
+Compressing  x64\7zxa.dll
+Compressing  7zxa.dll
+
+Everything is Ok
+
+Kernel  Time =     0.031 =    5%
+User    Time =     0.982 =  165%
+Process Time =     1.014 =  170%    Virtual  Memory =     45 MB
+Global  Time =     0.594 =  100%    Physical Memory =     43 MB
